@@ -1,6 +1,7 @@
     //bitcount
 
 #include<stdio.h>
+#include "dectobin.h"
 
     // bitcount: count 1 bits in x
 int bitcount(unsigned x)
@@ -22,6 +23,7 @@ int bitcount(unsigned x)
 int main()
 {
   int k;
+  dectomain(11);
   k = bitcount(11);
   printf("Returned value is %d\n", k);
 }
